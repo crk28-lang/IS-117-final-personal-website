@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cameron Kurdyla | Web Design for Blue Collar Businesses</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Hamburger Menu Button -->
+        <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Sidebar Navigation (Explorer Style) -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2 class="logo">CK Design</h2>
+                <p class="tagline">Web Solutions for Trades</p>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#home" class="nav-link active" data-section="home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about" class="nav-link" data-section="about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#services" class="nav-link" data-section="services"><i class="fas fa-tools"></i> Services</a></li>
+                    <li><a href="#portfolio" class="nav-link" data-section="portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link" data-section="contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/cameron-kurdyla-075894354/" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:crk28@njit.edu" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Home Section -->
+            <section id="home" class="section active">
+                <div class="hero">
+                    <div class="hero-content">
+                        <h1>Cameron Kurdyla</h1>
+                        <h2>Web Design Specialist for Blue Collar Businesses</h2>
+                        <p class="hero-subtitle">Helping trades and service companies build a strong online presence with clean, professional websites</p>
+                        <div class="cta-buttons">
+                            <button class="btn btn-primary" onclick="scrollToSection('contact')">Get Started</button>
+                            <button class="btn btn-secondary" onclick="scrollToSection('portfolio')">View My Work</button>
+                        </div>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>1+</h3>
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Client Focused</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Affordable</h3>
+                            <p>Pricing Models</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <div class="content-wrapper">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>I'm Cameron Kurdyla, a web designer dedicated to helping blue collar businesses and trades establish their digital presence. With over 1 year of hands-on coding experience, I specialize in creating professional, user-friendly websites that showcase your services and convert visitors into customers.</p>
+                            
+                            <p>I understand the unique needs of blue collar industries—reliability, clarity, and showcasing quality work matter. That's why I build websites that are:</p>
+                            
+                            <ul class="about-list">
+                                <li><strong>Professional & Clean:</strong> Showcasing your expertise without unnecessary complexity</li>
+                                <li><strong>Mobile-Friendly:</strong> Customers can find you and view your work on any device</li>
+                                <li><strong>Affordable:</strong> Web presence shouldn't break your budget</li>
+                                <li><strong>Easy to Maintain:</strong> You can manage your own content and updates</li>
+                                <li><strong>SEO Optimized:</strong> Help local customers find you online</li>
+                            </ul>
+
+                            <p>My journey started with a passion for technology and a realization that many skilled tradespeople lack proper online visibility. I'm here to change that.</p>
+                        </div>
+                        
+                        <div class="about-image">
+                            <div class="linkedin-embed">
+                                <a href="https://www.linkedin.com/in/cameron-kurdyla-075894354/" target="_blank" rel="noopener noreferrer" class="linkedin-link">
+                                    <img src="cameron.jpg" alt="Cameron Kurdyla - Web Design Consultant" class="profile-photo">
+                                    <div class="linkedin-badge">
+                                        <i class="fab fa-linkedin"></i> View on LinkedIn
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services" class="section">
+                <div class="content-wrapper">
+                    <h2 class="section-title">My Services</h2>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h3>Website Design & Development</h3>
+                            <p>Custom-built websites tailored to your business needs. Responsive, fast, and designed to impress your customers.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-images"></i>
+                            </div>
+                            <h3>Portfolio Showcasing</h3>
+                            <p>Beautiful galleries and project showcases to display your work. Let your completed projects do the selling.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3>Mobile Optimization</h3>
+                            <p>All websites are fully responsive. Customers can easily reach you from phones, tablets, or desktops.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h3>Local SEO</h3>
+                            <p>Help local customers find you through search engines. Optimize for local service searches in your area.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-pencil-alt"></i>
+                            </div>
+                            <h3>Content Management</h3>
+                            <p>Easy-to-use systems so you can update your website yourself. No technical skills required.</p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <h3>Support & Maintenance</h3>
+                            <p>Ongoing support to keep your website running smoothly. Updates, backups, and security included.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="section">
+                <div class="content-wrapper">
+                    <h2 class="section-title">Portfolio</h2>
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item">
+                            <div class="portfolio-image">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="portfolio-info">
+                                <h3>Landscaping Business Website</h3>
+                                <p>Professional landscaping portfolio site with seasonal service offerings, before/after photo gallery, and easy service booking system. Optimized for local SEO to help customers find landscaping services in their area.</p>
+                                <div class="portfolio-tags">
+                                    <span class="tag">Portfolio Gallery</span>
+                                    <span class="tag">Service Booking</span>
+                                    <span class="tag">Local SEO</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <div class="portfolio-image">
+                                <i class="fas fa-droplet"></i>
+                            </div>
+                            <div class="portfolio-info">
+                                <h3>Plumbing Services Website</h3>
+                                <p>Modern plumbing contractor site featuring emergency contact options, service area mapping, customer testimonials, and detailed service descriptions. Mobile-optimized for customers calling from job sites with 24/7 availability highlighted.</p>
+                                <div class="portfolio-tags">
+                                    <span class="tag">Emergency Services</span>
+                                    <span class="tag">Mobile Optimized</span>
+                                    <span class="tag">Testimonials</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="content-wrapper">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <h3>Ready to Build Your Online Presence?</h3>
+                            <p>I'd love to discuss how a professional website can help your business grow. Whether you're just starting out or looking to improve your current web presence, let's work together.</p>
+                            
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <div>
+                                        <h4>Email</h4>
+                                        <p><a href="mailto:crk28@njit.edu">crk28@njit.edu</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <div>
+                                        <h4>Phone</h4>
+                                        <p><a href="tel:+1234567890">(123) 456-7890</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div>
+                                        <h4>Location</h4>
+                                        <p>Available for businesses nationwide</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="social-links-large">
+                                <a href="https://www.linkedin.com/in/cameron-kurdyla-075894354/" target="_blank" rel="noopener noreferrer" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Company / Business</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">What services interest you?</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a service...</option>
+                                    <option value="website">Website Design & Development</option>
+                                    <option value="portfolio">Portfolio Showcasing</option>
+                                    <option value="seo">Local SEO</option>
+                                    <option value="maintenance">Support & Maintenance</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Tell me about your project</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>&copy; 2025 Cameron Kurdyla | Web Design Specialist. All rights reserved.</p>
+                <p>Specializing in websites for blue collar businesses and trades.</p>
+            </footer>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
